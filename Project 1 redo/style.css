@@ -1,0 +1,43 @@
+nav ul {
+    display: flex;
+    position: fixed;
+    bottom: 40px;
+    left: 40px;
+    list-style-type: none;
+    width: 100vw;
+    justify-content: space-between;
+    margin: 0;
+    display: inline;
+  }
+  
+  body {
+    background-color: #965b35;
+    margin: 0;
+  }
+
+ body {
+      box-sizing: border-box;
+  }
+
+  body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+  }
+
+.left{
+    flex: 20%;
+}
+.left {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  text-orientation: sideways;
+  text-align: left;
+  margin: 1rem;
+}
+
+h1 {
+    font-size: 100px;
+    font-family: 'Courier New', Courier, slab serif;
+    padding-top: 25%;
+}

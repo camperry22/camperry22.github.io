@@ -61,3 +61,21 @@ padding: 10px;
 .three-col .description {
   flex-grow: 2;
 }
+
+.submit {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.textarea {
+  margin-left: 20px;
+}
+
+.fieldset {
+  margin-left: 20px;
+  margin-right: 100px;
+}
+
+.question {
+  margin-left: 20px;
+}
