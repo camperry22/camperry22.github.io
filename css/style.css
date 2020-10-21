@@ -3,15 +3,26 @@ General Styles
 * --------------------------------------- */
 body {
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
 }
 
-h1,
+header {
+  border: 5px solid white;
+  background-image: url("../images/banners/alex-harvey-nqSUnXINsp4-unsplash.jpg");
+  background-size: cover; 
+  height: 300px; 
+  background-position: center center;
+}
+h1 {font-size: 36px;
+  font-family: 'Comfortaa', sans-serif;
+  color: beige;}
 h2,
 h3 {
   font-size: 36px;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: 'Comfortaa', sans-serif;
+  color: chocolate;
+
 }
 main,
 header h1,
@@ -29,6 +40,24 @@ nav a:hover {
   color: #333;
 }
 nav {
-  background-color: #ccc;
+  background-color:blanchedalmond;
   padding: 12px;
+}
+
+.moab-img {
+  width: 800px; 
+}
+
+.three-col { 
+  display: flex;
+  flex: 1;
+}
+
+.three-col article{
+flex: 1;
+padding: 10px;
+}
+
+.three-col .description {
+  flex-grow: 2;
 }
