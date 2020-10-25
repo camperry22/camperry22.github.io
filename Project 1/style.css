@@ -41,3 +41,8 @@ h1 {
     font-family: 'Courier New', Courier, slab serif;
     padding-top: 25%;
 }
+
+.home-img {
+  max-width: 100%;
+  height: auto; 
+}
