@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 nav ul {
     display: flex;
     position: fixed;
@@ -28,21 +32,152 @@ nav ul {
 .left{
     flex: 20%;
 }
-.left {
-  writing-mode: vertical-lr;
-  transform: rotate(180deg);
-  text-orientation: sideways;
-  text-align: left;
-  margin: 1rem;
+
+a {
+  color: #56311E; 
+  text-decoration: none;
+  font-family: 'Courier New', Courier, slab serif;
+}
+
+a:hover{
+  color: #F4EEDA
+}
+
+.h1-container {
+  position: fixed; 
 }
 
 h1 {
     font-size: 100px;
     font-family: 'Courier New', Courier, slab serif;
     padding-top: 25%;
+    margin-left: 20px;
+    position: absolute; 
+    color: #F4EEDA;
 }
 
 .home-img {
-  max-width: 100%;
-  height: auto; 
+  max-width: none;
+  height: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+  max-width: 1050px;
+}
+
+.first-column {
+  float: left;
+  width: 33.33%;
+}
+
+.second-column {
+  float: left;
+  width: 33.33%;
+
+}
+
+.third-column {
+  float: left;
+  width: 33.33%;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: right;
+}
+
+@media screen and (max-width: 600px) {
+  .first-column
+  {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .second-column
+  {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .third-column
+  {
+    width: 100%;
+  }
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #56311E; 
+}
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: #F4EEDA;
+  font-size: 11px;
+  font-family: 'Courier New', Courier, slab serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: left;
+}
+
+.row-page2 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+  max-width: 1050px;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.local-image1 {
+  margin-right: 20px;
+}
+
+.local-image2 {
+  margin-right: 20px;
+}
+
+.local-image3 {
+  margin-right: 20px;
+}
+
+.local-image4 {
+  margin-right: 20px;
+}
+
+.page3-text {
+  font-family: 'Courier New', Courier, slab serif;
+  text-align: left;
+  width: 237px;
+  color: #F4EEDA;
 }
