@@ -14,9 +14,11 @@ header {
   height: 300px; 
   background-position: center center;
 }
-h1 {font-size: 36px;
+h1 {
+  font-size: 36px;
   font-family: 'Comfortaa', sans-serif;
-  color: beige;}
+  color: beige;
+}
 h2,
 h3 {
   font-size: 36px;
