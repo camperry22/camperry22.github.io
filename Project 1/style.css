@@ -15,6 +15,7 @@ nav ul {
     justify-content: space-between;
     margin: 0;
     display: inline;
+    text-orientation: sideways;
   }
   
   body {
@@ -183,4 +184,53 @@ h1 {
   text-align: left;
   width: 237px;
   color: #F4EEDA;
+}
+
+.culture-image {
+  max-width: none;
+  height: auto;
+}
+
+.row-page3{
+  display: flex;
+}
+
+.image-column {
+  margin-left: 180px;
+  overflow: hidden;
+  text-align: right;
+  flex: 70%;
+  margin-top: 0;
+}
+
+.text-column {
+  text-align: left;
+  flex: 30%;
+  font-family: 'Courier New', Courier, slab serif;
+  color: #F4EEDA;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 0;
+}
+
+.row-page4 {
+  display: flex;
+}
+
+.text-column1 {
+  margin-left: 20px;
+  margin-right: 20px;
+  flex: 50%;
+  font-family: 'Courier New', Courier, slab serif;
+  color: #F4EEDA;
+  font-size: 15px;
+}
+
+.img-column1 {
+  flex: 25%;
+  margin-left: 0;
+}
+
+.img-column2 {
+  flex: 25%;
 }
