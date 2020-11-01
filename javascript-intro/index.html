@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <p class="foo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio laudantium nisi ea eaque nobis expedita, officia, architecto dolorum voluptatem, quisquam corporis similique magni totam vero voluptate dolorem. Magni, totam suscipit.</p>
+    <button onclick={clickme()}>click</button>
+
+    <p>second one</p>
+
+    <button class="jclick">click for jquery</button>
+
+    <script>
+        function clickme (){
+        document.getElementsByClassName(".foo")[0].innerHTML="weeee"
+        }
+        
+        $('.jclick').click(function(){
+            $('p').css('color', 'red')
+        })
+
+        $('.jclick').hover(function(){
+            $('p').css('color', 'red')
+            $('p').addClass('funtimes')
+        })
+
+        $('.foo').keypressed(function(){
+            $('.foo').append('weeee<br>')
+        })
+    </script>
+</body>
+</html>
