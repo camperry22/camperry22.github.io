@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+<header>
+    <section class="header nav">
+    <nav class="nav">
+        <div class="icon">
+            <div class="hamburger"></div>
+        </div>
+        <div class="menu-mobile">
+            <a href="#intro-section">Home</a>
+            <a href="#services">Locations</a>
+            <a href="#portfolio">Menu</a>
+            <a href="#contact">Order Online</a>
+        </div>          
+    </nav>
+    <nav class="desktop">
+        <div class="menu-desktop">
+            <a href="#intro-section">Home</a>
+            <a href="#services">Locations</a>
+            <a href="#portfolio">Menu</a>
+            <a href="#contact">Order Online</a>
+        </div>
+    </nav>
+    <img src="images/KoiFusionLogo.jpg" alt= "koi fusion logo" class="logo">
+    </section> 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</header>
+<body>
+    <div class="home-img">
+    </div> 
+
+    <div class="home-text">
+        <h1 class="h1">
+            About Us
+        </h1>
+        <p>
+            Here at KOi Fusion, we’re all about new ideas, and that’s exactly what we’re serving up. Experience an innovative and funky fusion of Korean BBQ and fresh Mexican flavors. <br><br>
+
+Starting in 2009 as one mobile taco truck, Chef Bo Kwon was inspired by the genre of Korean Fusion. We set about creating our own niche within this category, using Mama Kwon’s secret family marinades, fresh vegetables, and locally-sourced tortilla vendors to create a new twist that’s uniquely Portland, Oregon. <br><br>
+
+By adhering to these founding principles, KOi has gone from one cart in the spring of 2009 to a present-day lineup that includes three mobile trucks, two stationary locations, and an entire catering division. We’ve been profiled in CNN, The New York Times, Food & Wine Magazine, Gourmet Magazine, Forbes, and a host of local media from around the Northwest. <br><br>
+
+By combining our succulent barbecued meats with grilled tortillas and fresh vegetables and herbs, we offer a range of fusion mash-ups that have received rave reviews, including tacos, burritos, kimchi quesadillas, and our world-famous k’sliders. We also offer a host of seasonal chef specials including Korean fried chicken, K-dogs, and spicy Korean fries.
+        </p>
+    </div>
+    
+    <div>
+        <img src="images/musicfox-fx-pXHqLZsLz_4-unsplash.jpg" alt="picture of koi fish" class="koi">
+    </div>
+
+    <div>
+        <form action="https://getsimpleform.com/messages?form_api_token=d4a1bb603516f733ed6b104cc65c0a1d" method="post">
+            <input type='hidden' name='redirect_to' value='the complete return url e.g. http://fooey.com/thank-you.html>' />
+            <fieldset class="fieldset">
+                <legend>Contact Info</legend>
+                <label>First Name:</label>
+                <input type="text" name="first-name" required="required"/><br><br>
+                <label>Last Name:</label>
+                <input type="text" name="last-name" required="required"/><br><br>
+                <label>Email:</label>
+                <input type="text" name="email" required="required"/><br><br>
+                <label>Phone Number:</label>
+                <input type="text" name="phone-number" required="required"/><br><br>
+                <label>Event Date:</label>
+                <input type="text" name="date" required="required"/><br><br>
+                <label for="catering-option">
+                    Catering Option:
+                    </label>
+                    <select name="referrer" id="hear-about">
+                    <option value="food truck">Food Truck</option>
+                    <option value="delivery">Delivery</option>
+                    <option value="in-house catering">In-House Catering</option>
+                    </select><br><br>
+                 <label for="add-intro">
+                    Additional Information:
+                    </label>
+                    <br />
+                    <textarea rows="4" cols="40" id="comments">
+                    </textarea><br>
+            </fieldset><br>
+            <input type='submit' value='Submit' class="submit"/>
+    </div>
+</body>
+</html>
