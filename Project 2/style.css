@@ -121,9 +121,19 @@
 }
 
 .home-text {
-  font-family: sans-serif;
+  font-family: 'Quicksand', sans-serif;
   background-color: #EDF1EE;
   padding: 10px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #EDF1EE;
+  font-size: 100px;
 }
 
 .h1 {
@@ -140,7 +150,7 @@
   margin-left: 20px;
   margin-right: 100px;
   padding: 10px;
-  font-family: sans-serif;
+  font-family: 'Quicksand',sans-serif;
   background: #EDF1EE;
 }
 
@@ -149,6 +159,20 @@
   margin-right: 100px;
 }
 
+.menu-img {
+  background-image: url("images/menu\ image\ 2.jpeg");
+  background-size: auto; 
+  height: 500px;
+  background-position: center center;
+}
+
+.menu-text {
+  font-family: 'Quicksand',sans-serif;
+  padding-left: 10px;
+  padding-top: 5px;
+  background-color: #52BFC6;
+  color: #EDF1EE;
+}
 
 @media only screen and (min-width: 768px) {
     .menu-desktop {
@@ -191,4 +215,6 @@
         display: none;
       }
 }
+
+
 
