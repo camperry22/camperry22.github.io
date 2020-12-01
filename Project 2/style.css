@@ -152,11 +152,23 @@
   padding: 10px;
   font-family: 'Quicksand',sans-serif;
   background: #EDF1EE;
+  border-radius: 4px;
 }
 
 .submit {
   margin-left: 20px;
   margin-right: 100px;
+  background-color: #52bfc6;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 12px 20px;
+}
+
+.submit:hover {
+  background-color: white;
+  color: #52bfc6;
 }
 
 .menu-img {
