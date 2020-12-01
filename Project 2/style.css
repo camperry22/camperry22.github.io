@@ -209,6 +209,16 @@
   background-repeat: no-repeat;
 }
 
+.footer {
+  background-color: #333;
+  padding: 12px 20px;
+}
+
+.copyright {
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
 @media only screen and (min-width: 768px) {
     .menu-desktop {
         width: 100%;
